@@ -16,7 +16,7 @@
             <?php include "../layout/sidebar.php";  ?>
             </div>
             <div class="col-9">
-             
+            <?php include "../layout/nav_product.php";  ?> 
             </div>
         </div>
         
