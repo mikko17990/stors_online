@@ -1,4 +1,25 @@
-<form action="saveproduct.php" method="post">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../font/main.css">
+    <title>Product Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+            <?php include "../layout/sidebar.php";  ?>
+            </div>
+            <div class="col-9">
+            <?php include "../layout/nav_product.php";  ?> 
+            <form action="saveproduct.php" method="post">
                     <div class="mb-3">
                         <label for="pro_name" class="form-label">ຊື່ສິນຄ້າ</label>
                         <input type="text" name="pro_name" class="form-control">
@@ -20,3 +41,9 @@
                         <input type="reset" value="ລຶບຂໍ້ມູນ" class="btn btn-danger">
                     </div>
                 </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

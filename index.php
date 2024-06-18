@@ -20,15 +20,18 @@ if($_POST){
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="font/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>ໜ້າຫຼັກ</title>
 </head>
-<body class="bg-dark">
+<body>
    <?php 
    include "layout/top.php";
    ?> 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-           <h1 class="text-danger">Hello World</h1>
+           <div class="col-3"><?php include "./layout/sidebar_font.php"; ?></div>
+           <div class="col-6">sidebar</div>
+           <div class="col-3">sidebar</div>
         </div>
     </div>
 </body>
